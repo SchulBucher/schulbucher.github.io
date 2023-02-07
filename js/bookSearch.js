@@ -19,10 +19,10 @@ const titleSearch = () => {
 
         if (cardTitle.toUpperCase().indexOf(filter) > -1) {
             flag = 1;
-            toDisplay.textContent = "Lucky! It's listed";
+            toDisplay.textContent = "Es wurden Bücher gefunden! :D";
             pos.push(i);
         } else if(flag!=1) {
-            toDisplay.textContent = "Couldn't find here. Contribute!? 😀";
+            toDisplay.textContent = "Es wurden keine Bücher gefunden! :(";
         }               
     }
     if(flag)
