@@ -22,7 +22,7 @@ const titleSearch = () => {
             toDisplay.textContent = "Es wurden Bücher gefunden! :D";
             pos.push(i);
         } else if(flag!=1) {
-            toDisplay.textContent = "Es wurden keine Bücher gefunden! :(";
+            toDisplay.textContent = "Hoppla! Es wurden keine Bücher gefunden! :(";
         }               
     }
     if(flag)
